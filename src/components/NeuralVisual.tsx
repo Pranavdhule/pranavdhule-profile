@@ -43,10 +43,10 @@ export function NeuralVisual() {
           {edges.map(([a, b], i) => (
             <motion.line
               key={`${a}-${b}`}
-              x1={nodes[a].x}
-              y1={nodes[a].y}
-              x2={nodes[b].x}
-              y2={nodes[b].y}
+              x1={nodes[a]?.x ?? 0}
+              y1={nodes[a]?.y ?? 0}
+              x2={nodes[b]?.x ?? 0}
+              y2={nodes[b]?.y ?? 0}
               stroke="url(#edge)"
               strokeWidth={1}
               initial={{ pathLength: 0, opacity: 0 }}
