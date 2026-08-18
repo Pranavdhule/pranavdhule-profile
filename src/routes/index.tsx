@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { MotionConfig } from "motion/react";
 import { Navbar } from "@/components/Navbar";
 import { About } from "@/sections/About";
 import { Certifications } from "@/sections/Certifications";
@@ -46,6 +47,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
+    <MotionConfig reducedMotion="user">
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <main>
@@ -60,5 +62,6 @@ function Index() {
       </main>
       <Footer />
     </div>
+    </MotionConfig>
   );
 }
