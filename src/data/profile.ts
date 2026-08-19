@@ -1,4 +1,8 @@
 import resumeAsset from "@/assets/resume.docx.asset.json";
+import certGenAiMsft from "@/assets/cert-genai-microsoft-linkedin.pdf.asset.json";
+import certChatGptWeb from "@/assets/cert-chatgpt-web-developers.pdf.asset.json";
+import certIntroGenAi from "@/assets/cert-intro-generative-ai-simplilearn.pdf.asset.json";
+import certTechsaksham from "@/assets/cert-techsaksham-ir4-foundation.pdf.asset.json";
 
 /**
  * Edit this file to update your personal details.
@@ -52,11 +56,31 @@ export const education = [
   },
 ];
 
-/** TODO: replace placeholders with your actual certifications. */
 export const certifications = [
-  { name: "Certification name (placeholder)", issuer: "Issuing organization", date: "Month Year", link: "" },
-  { name: "Certification name (placeholder)", issuer: "Issuing organization", date: "Month Year", link: "" },
-  { name: "Certification name (placeholder)", issuer: "Issuing organization", date: "Month Year", link: "" },
+  {
+    name: "Career Essentials in Generative AI",
+    issuer: "Microsoft & LinkedIn Learning",
+    date: "Aug 2026",
+    link: certGenAiMsft.url,
+  },
+  {
+    name: "ChatGPT for Web Developers",
+    issuer: "LinkedIn Learning",
+    date: "Aug 2026",
+    link: certChatGptWeb.url,
+  },
+  {
+    name: "Introduction to Generative AI",
+    issuer: "Simplilearn SkillUp · Powered by Google Cloud",
+    date: "Sep 2025",
+    link: certIntroGenAi.url,
+  },
+  {
+    name: "IR4.0 Foundation — TechSaksham",
+    issuer: "Microsoft & SAP, implemented by Edunet Foundation",
+    date: "Certificate ID: TSPIN24_77587",
+    link: certTechsaksham.url,
+  },
 ];
 
 /** TODO: replace placeholders with your actual activities. */
