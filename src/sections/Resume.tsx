@@ -17,15 +17,15 @@ export function Resume() {
           </span>
           <h2 className="mt-5 font-display text-2xl font-semibold sm:text-3xl">Resume</h2>
           <p className="mx-auto mt-3 max-w-xl leading-relaxed text-muted-foreground">
-            Download a one-page summary of my education, skills, projects and certifications.
+            Download a one-page summary of my education, skills and projects.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
             <ActionLink href={profile.resumeUrl} download size="lg">
               <Download className="size-4" aria-hidden="true" />
               Download Resume
             </ActionLink>
-            <ActionLink href={profile.resumeUrl} target="_blank" rel="noreferrer noopener" variant="outline" size="lg">
-              View in browser
+            <ActionLink href={`mailto:${profile.email}`} variant="outline" size="lg">
+              Email me
             </ActionLink>
           </div>
         </Reveal>
