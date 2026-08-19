@@ -1,6 +1,7 @@
+import resumeAsset from "@/assets/resume.docx.asset.json";
+
 /**
  * Edit this file to update your personal details.
- * Placeholders marked with TODO should be replaced with your real links.
  */
 export const profile = {
   name: "Pranav Anil Dhule",
@@ -9,11 +10,11 @@ export const profile = {
   location: "Maharashtra, India",
   intro:
     "Computer Engineering graduate passionate about Artificial Intelligence, Machine Learning, Python development, and data-driven solutions. I build practical applications that solve real-world problems using machine learning, deep learning, and modern software technologies.",
-  // TODO: replace the placeholders below with your real contact details.
-  email: "your.email@example.com",
-  github: "https://github.com/your-username",
-  linkedin: "https://linkedin.com/in/your-profile",
-  resumeUrl: "/resume.pdf",
+  email: "pranavdhule04@gmail.com",
+  phone: "+91 70573 79056",
+  github: "https://github.com/Pranavdhule",
+  linkedin: "https://www.linkedin.com/in/pranav-dhule-4882b6254/",
+  resumeUrl: resumeAsset.url,
 };
 
 export const navLinks = [
@@ -37,7 +38,17 @@ export const education = [
   {
     degree: "B.Tech – Computer Engineering",
     institution: "Dr. Babasaheb Ambedkar Technological University (DBATU), Lonere",
-    detail: "Coursework across programming, data structures, databases, AI/ML and software engineering.",
+    detail: "2022 – 2026 · CGPA 7.50 / 10. Coursework across programming, data structures, databases, AI/ML and software engineering.",
+  },
+  {
+    degree: "Higher Secondary Certificate (HSC)",
+    institution: "S. B. Junior College of Science, Telhara",
+    detail: "2021 – 2022 · Score: 83.00% (Science stream).",
+  },
+  {
+    degree: "Secondary School Certificate (SSC)",
+    institution: "S. B. High School, Telhara",
+    detail: "2019 – 2020 · Score: 93.40%.",
   },
 ];
 
