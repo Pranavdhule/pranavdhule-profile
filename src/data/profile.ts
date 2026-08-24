@@ -82,11 +82,3 @@ export const certifications = [
     link: certTechsaksham.url,
   },
 ];
-
-/** TODO: replace placeholders with your actual activities. */
-export const achievements = [
-  { title: "Hackathon participation (placeholder)", detail: "Add event name, year and your contribution." },
-  { title: "Technical competition (placeholder)", detail: "Add competition name and outcome." },
-  { title: "Academic project work", detail: "Add details of academic project work and your role." },
-  { title: "Technical activities (placeholder)", detail: "Add workshops, clubs or seminars you took part in." },
-];

@@ -1,7 +1,7 @@
-import { Award, ExternalLink, Trophy } from "lucide-react";
+import { Award, ExternalLink } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionTitle } from "@/components/SectionTitle";
-import { achievements, certifications } from "@/data/profile";
+import { certifications } from "@/data/profile";
 
 export function Certifications() {
   return (
@@ -39,24 +39,6 @@ export function Certifications() {
           ))}
         </div>
 
-        <div className="mt-16" id="achievements">
-          <h3 className="font-display text-xl font-semibold">Achievements &amp; activities</h3>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {achievements.map((item, i) => (
-              <Reveal key={item.title} delay={i * 0.06}>
-                <div className="glass flex h-full gap-4 rounded-2xl p-5">
-                  <span className="inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-secondary text-primary">
-                    <Trophy className="size-4" aria-hidden="true" />
-                  </span>
-                  <div>
-                    <h4 className="text-sm font-semibold">{item.title}</h4>
-                    <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{item.detail}</p>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
