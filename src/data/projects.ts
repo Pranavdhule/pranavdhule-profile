@@ -63,7 +63,7 @@ export const projects: Project[] = [
     results:
       "Produces a ranked, explainable market comparison based on net revenue rather than headline price. (Add your own measured results here.)",
     github: "",
-    demo: "",
+    demo: "https://automated-market-strategy-adviser.streamlit.app/",
   },
   {
     slug: "ai-pdf-chatbot",
