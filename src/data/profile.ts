@@ -59,6 +59,12 @@ export const education = [
 
 export const certifications = [
   {
+    name: "Oracle Certified Foundations Associate — Agentic AI",
+    issuer: "Oracle University",
+    date: "Aug 2026 · Credential ID 103524491AAI26OFA",
+    link: certOracleAgenticAi.url,
+  },
+  {
     name: "Career Essentials in Generative AI",
     issuer: "Microsoft & LinkedIn Learning",
     date: "Aug 2026",
