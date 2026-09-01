@@ -3,6 +3,7 @@ import certGenAiMsft from "@/assets/cert-genai-microsoft-linkedin.pdf.asset.json
 import certChatGptWeb from "@/assets/cert-chatgpt-web-developers.pdf.asset.json";
 import certIntroGenAi from "@/assets/cert-intro-generative-ai-simplilearn.pdf.asset.json";
 import certTechsaksham from "@/assets/cert-techsaksham-ir4-foundation.pdf.asset.json";
+import certOracleAgenticAi from "@/assets/cert-oracle-agentic-ai.pdf.asset.json";
 
 /**
  * Edit this file to update your personal details.
@@ -57,6 +58,12 @@ export const education = [
 ];
 
 export const certifications = [
+  {
+    name: "Oracle Certified Foundations Associate — Agentic AI",
+    issuer: "Oracle University",
+    date: "Aug 2026 · Credential ID 103524491AAI26OFA",
+    link: certOracleAgenticAi.url,
+  },
   {
     name: "Career Essentials in Generative AI",
     issuer: "Microsoft & LinkedIn Learning",
