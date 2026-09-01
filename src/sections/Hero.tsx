@@ -34,7 +34,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.08 }}
             className="mt-6 text-4xl leading-[1.08] font-semibold sm:text-5xl lg:text-6xl"
           >
-            Hi, I&apos;m <span className="text-gradient">Pranav Dhule</span>
+            <span className="text-gradient">Pranav Dhule</span>
           </motion.h1>
 
           <motion.p
