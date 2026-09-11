@@ -128,4 +128,36 @@ export const projects: Project[] = [
     github: "",
     demo: "",
   },
+  {
+    slug: "flowcast",
+    title: "FlowCast: AI-Powered Smart Traffic Flow Prediction Platform",
+    tagline: "Predictive analytics for intelligent urban traffic management",
+    description:
+      "A machine learning platform that forecasts traffic flow using historical and real-time data, helping city planners and commuters make smarter, data-driven mobility decisions.",
+    problem:
+      "Urban traffic congestion leads to wasted fuel, lost productivity, and increased emissions, yet reactive signal timing and planning rarely anticipate demand before it spikes.",
+    solution:
+      "FlowCast ingests traffic sensor and temporal data, engineers predictive features, and trains regression models to forecast vehicle flow so operators can act before congestion forms.",
+    features: [
+      "Traffic flow forecasting",
+      "Historical trend analysis",
+      "Real-time prediction dashboard",
+      "Feature engineering for temporal patterns",
+      "Model comparison and evaluation",
+      "Interactive visualizations",
+      "Streamlit deployment",
+    ],
+    tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Streamlit", "Matplotlib", "Seaborn"],
+    methodology: [
+      "Collect and preprocess traffic volume, time, and environmental data.",
+      "Engineer temporal features such as hour, day-of-week, and rolling averages.",
+      "Train and compare regression models to forecast short-term traffic flow.",
+      "Evaluate predictions using MAE, RMSE, and R² metrics.",
+      "Deploy the best model behind an interactive Streamlit interface.",
+    ],
+    results:
+      "Provides actionable traffic-flow forecasts to support proactive urban mobility planning. (Add your own measured results here.)",
+    github: "",
+    demo: "https://flowcast-traffic-prediction-gfh2afrmshjrhxcsqv7auk.streamlit.app/",
+  },
 ];
